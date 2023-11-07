@@ -19,7 +19,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="/">Página Principal</a>
+                <a class="nav-link" href="/index">Página Principal</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="cadastroProduto">Cadastro de Produto</a>
@@ -30,19 +30,20 @@
 
 <!-- Formulário de Cadastro de Pessoa com Bootstrap -->
 <div class="container mt-5">
-    <h1>Cadastro de Pessoa</h1>
-    <form action="/cadastroUsuario.html" method="post">
+    <h1>Cadastro de Usuário</h1>
+    <form action="/cadastroUsuario" method="post">
         <div class="form-group">
-            <label for="Email">Email:</label>
-            <input type="text" class="form-control" id="Email" name="Email" placeholder="Email">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Email">
         </div>
         <div class="form-group">
-            <label for="Senha">Senha:</label>
-            <input type="Senha" class="form-control" id="Senha" name="Senha" placeholder="Senha">
+            <label for="senha">Senha:</label>
+            <input type="password" class="form-control" id="senha" name="senha" placeholder="Senha">
         </div>
         <button type="submit" class="btn btn-primary">Cadastrar</button>
     </form>
 </div>
+
 
 <!-- Inclua o JavaScript do Bootstrap e jQuery -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
