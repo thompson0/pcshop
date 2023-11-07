@@ -62,11 +62,11 @@ app.post("/cadastroProduto", async (req, res) => {
 });
 
 app.get("/cadastroUsuario", async (req, res) => {
-    res.sendFile(__dirname + "/cadastropessoa.html");
+    res.sendFile(__dirname + "/cadastroUsuario.html");
 });
 
 app.get("/cadastroProduto", async (req, res) => {
-    res.sendFile(__dirname + "/cadastropessoa.html");
+    res.sendFile(__dirname + "/cadastroProduto.html");
 });
 
 app.get("/", async (req, res) => {
